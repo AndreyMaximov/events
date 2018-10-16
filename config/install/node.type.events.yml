@@ -1,0 +1,17 @@
+uuid: 478d26f3-0bf0-4b0c-93c4-c07c6c71969a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Events
+type: events
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,50 @@
+uuid: 730ced83-d8f3-498a-ae05-dd67fcbcc573
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.events.body
+    - field.field.node.events.field_address
+    - field.field.node.events.field_date_time
+    - node.type.events
+  module:
+    - datetime
+    - text
+    - user
+_core:
+  default_config_hash: '-pKtaVfFOaYy6970ERQtBNq90ObcjKhrcC75PD9kBNk'
+id: node.events.default
+targetEntityType: node
+bundle: events
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_address:
+    weight: 102
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_date_time:
+    weight: 103
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
